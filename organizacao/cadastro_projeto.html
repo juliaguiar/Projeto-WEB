@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Atividade</title>
+    <link href="styles/organizacao.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+</head>
+<body> 
+
+    <div id="cabecalho">
+
+        <div id="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li>
+                    <a class="principal" href="index.html" title="inicio">Início</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/calendar" title="calendario">Calendário</a>
+                </li>
+                <li>
+                    <a href="atividades.html" title="atividade">Atividades</a>
+                </li>
+                <li>
+                    <a href="projetos.html" title="projetos">Projetos</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="organizador">
+            <img src="images/organizador.png" alt="img_organizador">
+            <img onmouseover="menu()"; src="images/acento.png" alt="acento">
+        </div>
+
+    </div>
+
+    <div id="menu_organizador"></div>
+
+    <div style="padding: 6px;">
+            <div class="col-xs-3">
+                    <form onsubmit ="return valida_projeto(this);">
+                        <fieldset style = "border: 5px groove; width: 320px; height: 350px; padding: 10px 110px 20px 20px">
+                            <legend>
+                                <div style="background: darkblue; width: 290px; height: 40px">
+                                    <h3 style="color:white; margin: auto; padding: 5px 5px 40px 40px"> Cadastro de Projetos </h3>
+                                </div>
+                            </legend>
+                            Título: <input type="text" name="titulo_proj" class="form-control" placeholder="Título do projeto"><br /><br />
+                            Autor: <input type="text" name="autor_proj" class="form-control" placeholder="Autor do projeto"><br /><br />
+                            Data de Início: <input type="date" name="data_inicio_proj" class="form-control" width="30px" placeholder="Data de início"><br /><br />
+                            Data de Término: <input type="date" name="data_termino_proj" class="form-control" width="30px" placeholder="Data de término"><br /><br />
+                            Descrição: <textarea name="descricao_proj" style="resize:none;" resize="no" rows="5" cols="35"> </textarea>
+                            <br />
+                            <input type="submit" value="Criar" class="btn btn-primary">
+                        </fieldset>
+                    </form>
+             </div>
+    </div>
+
+<script src="scripts/organizacao.js"></script>
+</body>
+</html>

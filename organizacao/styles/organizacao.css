@@ -1,0 +1,159 @@
+html {
+	background-color: #b8b893;
+}
+
+body {
+	background-image:url('../imagens/maceio.jpg');
+	margin: 0 auto;
+}
+
+#corpo {
+	height: 534px;
+	width:800px;
+}
+
+#cabecalho {
+	height: 100px;
+	background-color: #5c5c3d;
+}
+
+#logo {
+	position:relative;
+	width: 200px;
+	height: 95px;
+	padding-top: 5px;
+	padding-left: 100px;
+	float: left;
+}
+
+#menu {
+	position: relative;
+	width: 700px;
+	height: 85px;
+	padding-top: 15px;
+	padding-left: 50px;
+	font: 30px Arial, sans-serif;
+	float: left;
+}
+
+#menu li {
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+#menu li a {
+	height:1px;
+	padding: 3px 5px;
+	margin:0;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+	background: #444;
+	text-decoration: none;
+}
+
+#menu li a:link {
+	color: #fff;
+}
+
+a.principal:link {
+	color: #99994d;
+}
+
+#menu li a:visited {
+	color: #fff;
+}
+
+#menu li a:hover {
+	background: #99994d;
+	color: #000;
+}
+
+#organizador{
+	position: relative;
+	width: 180px;
+	height: 95px;
+	padding-top: 5px;
+	padding-left: 100px;
+	float: left;
+}
+
+#organizador img{
+	padding: 1px 0px;
+}
+
+#corpo img {
+	z-index: 100;
+}
+
+#corpo h1 {
+	position: absolute;
+	font: 80px Verdana, sans-serif;
+	padding: 0px 280px;
+	z-index: 101;
+}
+
+#menu_organizador {
+position: absolute;
+width: 250px;
+padding: 0;
+margin-left: 1100px;
+font: 12px Verdana, sans-serif;
+background: #444;
+border-top: 3px solid orange;
+border-bottom: 3px solid orange;
+z-index: 101;
+}
+
+#menu_organizador li {
+list-style: none;
+margin: 0.5em 0 0.5em 0.5em;
+}
+
+#menu_organizador li a {
+margin:0;
+padding:0;
+text-decoration:none;
+}
+
+#menu_organizador li a:link {
+	color: #fff;
+}
+
+#menu_organizador li a:visited {
+	color: #fff;
+}
+
+#menu_organizador li a:hover {
+font: 15px Verdana, sans-serif;
+}
+
+#menu_organizador li a:active {
+background: #99994d;
+color: #000;
+}
+
+#body_ativ{
+	margin: 40px 80px;
+	z-index: 100;
+}
+
+#body_ativ h2{
+	text-align: center;
+}
+
+#body_ativ img{
+	position: absolute; 
+	left: 80px; 
+	top: 50px;
+}
+
+#bloco1, #bloco2, #bloco3, 
+#bloco4, #bloco5, #bloco6 {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	margin: 15px 15px;
+	border:5px double black;
+	float: left;
+}
