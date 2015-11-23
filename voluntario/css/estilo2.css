@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    background-image: url("../imagens/fundo01.jpg");
+}
+
+#slogan {
+    /*background-color:mediumslateblue;*/
+    color: gold;
+    text-shadow: 10px 10px 10px black;
+    text-align:center;
+    padding:5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*
+
+#menu ul {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 0px;
+    background-color:darkseagreen;
+    list-style:none;
+    margin: auto;
+    width: 55%;
+    text-align: center;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+#menu ul li {
+    display: inline;
+    margin: auto;
+
+}
+
+#menu ul li a {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: auto;
+
+     visual do link 
+    background-color:darkseagreen;
+    color: #333;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom:3px solid darkseagreen;
+
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: black;
+    border-bottom:3px solid #EA0000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+*/
+
+#cabecalho {
+    height: 100px;
+    background-color: cadetblue;
+}
+
+#logo {
+    position:relative;
+    width: 200px;
+    height: 95px;
+    padding-top: 5px;
+    padding-left: 100px;
+    float: left;
+}
+
+#menu {
+    position: relative;
+    width: 800px;
+    height: 85px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font: 30px Arial, sans-serif;
+    float: left;
+}
+
+#menu li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+#menu li a {
+    height:1px;
+    padding: 3px 5px;
+    margin-left: 5px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    background: #444;
+    text-decoration: none;
+}
+
+#menu li a:link {
+    color: #fff;
+}
+
+a.principal:link {
+    color: #99994d;
+}
+
+#menu li a:visited {
+    color: #fff;
+}
+
+#menu li a:hover {
+    background: #99994d;
+    color: #000;
+}
+
+#texto {
+    margin-bottom: 100px;
+    width: 900px;
+    height: 770px;
+    padding:40px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-image: url("../imagens/fundo02.jpg");
+    background-repeat: no-repeat;
+}
+
+#cadastro{
+    margin-bottom: 100px;
+    width: 40%;
+    padding:40px;
+    margin: auto;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+#lista{
+    margin-bottom: 100px;
+    width: 40%;
+    padding:40px;
+    margin: auto;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#lista ul{
+    list-style:none;
+    /*list-style-image: url("http://www.bubok.es/img/general_bubok/book_pages/check.png");*/
+    list-style-image: url("../imagens/listaMarcador.png");
+    list-style-position: inside;
+
+}
+
+h1{
+    margin-top: 3px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: blue;
+    text-align: center;
+}
+
+#titInicial{
+    color: red;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+
+#textoInicial{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    text-align: right;
+    margin-top: 500px;
+    margin-left: 20px;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+
+label,  input {
+    display: block;
+    float: left;
+}
+
+form label {
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    width: 35px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    float:left;
+    text-align: right;
+}
+
+
+fieldset {
+    border: solid 3px blueviolet;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 10px;
+    margin: none;
+}
+
+br {
+    clear: left;
+}
+
+
+
+#listaEstilada, li{
+    font-size: 20px;
+}
+
+#listaEstilada, li, a{
+    color: gray;
+    font-weight: bold;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#listaEstilada, li, a:hover {
+    color: black;
+}
+
+footer {
+    background-color:mediumslateblue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    width: 80%;
+    margin: auto;
+    bottom:0;
+}

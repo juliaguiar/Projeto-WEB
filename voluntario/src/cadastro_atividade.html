@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Atividade </title>
+    <link rel="stylesheet" href="../css/estilo2.css">
+    <script type="text/javascript" src="../js/validacao_cadastro.js"> </script>
+
+</head>
+
+<body>
+<!--
+<header>
+    <h1 id="slogan">Transforma Maceió - A capital da solidariedade</h1>
+</header>-->
+
+<div id="cabecalho">
+
+    <div id="logo">
+        <img src="../imagens/logo.png" alt="logo">
+    </div>
+
+    <nav id="menu">
+        <ul>
+            <li> <a href="inicio.html">Início</a> </li>
+            <li> <a href="cadastro_projeto.html"> Cadastrar Projeto </a> </li>
+            <li> <a href="cadastro_atividade.html">Cadastrar Atividade</a> </li>
+            <li> <a href="lista_projetos.html"> Listar projetos </a> </li>
+            <li> <a href="lista_atividades.html"> Listar atividades </a> </li>
+        </ul>
+    </nav>
+</div>
+
+<section id="cadastro">
+    <form name="form_atividade" onSubmit="return validar_atividade();" method="post" >
+        <fieldset>
+            <h1> Cadastrar nova atividade </h1>
+
+            <label> *Nome: </label>
+            <input type="text" placeholder="Nome da atividade..." name="nomeAtiv" /> <br /> <br />
+
+            <label> *Data Início: </label>
+            <input type="date"  name="dataiAtiv" /> <br />
+
+            <label> *Data Fim: </label>
+            <input type="date"  name="datafAtiv" /> <br />
+
+            <label> *Projeto: </label>
+            <input type="text" placeholder="Nome do projeto relacionado..." name="nomeProj2" /> <br /> <br />
+
+            <label> *Descrição: </label>
+            <textarea placeholder="Descrição da atividade..." name="descricaoAtiv"></textarea> <br /> <br />
+
+            * Campos obrigatórios <br /> <br /> <br /> <br />
+
+            <input type="submit" value="Cadastrar" />
+
+        </fieldset>
+    </form>
+</section>
+</body>
+
+</html>
